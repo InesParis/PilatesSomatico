@@ -1,0 +1,76 @@
+body {
+  background: #fffdfa;
+}
+
+h1 {
+  font-family: "Buda", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-inner {
+  display: flex;
+  width: 300%; /* 3 images in total */
+  animation: slide 10s linear infinite;
+  height: 100%;
+}
+.hero-item {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  flex: 1;
+}
+
+.hero-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark filter */
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 2; /* Above the overlay and images */
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  } /* Show the first image */
+  33.33% {
+    transform: translateX(0);
+  } /* Stay on the first image */
+  40% {
+    transform: translateX(-33.33%);
+  } /* Transition to the second image */
+  73.33% {
+    transform: translateX(-33.33%);
+  } /* Stay on the second image */
+  80% {
+    transform: translateX(-66.66%);
+  } /* Transition to the third image */
+  100% {
+    transform: translateX(-66.66%);
+  } /* Stay on the third image */
+  0% {
+    transform: translateX(0);
+  }
+}
