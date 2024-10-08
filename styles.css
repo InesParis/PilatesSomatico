@@ -1,13 +1,29 @@
 body {
   background: #fffdfa;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
 }
 
 h1 {
   font-family: "Buda", serif;
   font-weight: 300;
+  letter-spacing: 7px;
   font-style: normal;
+  font-weight: light;
+  font-size: 40px;
 }
-
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 10px;
+  border-style: none;
+}
+button:hover {
+  transform: scale(1.1);
+  transition: ease-in-out;
+  background: #f0cbc0;
+}
 .hero {
   position: relative;
   width: 100%;
@@ -72,5 +88,11 @@ h1 {
   } /* Stay on the third image */
   0% {
     transform: translateX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 25px;
   }
 }
