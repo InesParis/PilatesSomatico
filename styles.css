@@ -3,6 +3,49 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(51, 51, 51, 0.556);
+  padding: 10px 20px;
+  font-family: "Buda", serif;
+  letter-spacing: 7px;
+}
+
+.navbar .brand-title {
+  color: white;
+  font-size: 24px;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links ul li {
+  margin-left: 20px;
+}
+
+.navbar-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar-links ul li a:hover {
+  color: #f0cbc0; /* Example hover color */
+}
+
+/* Mobile responsiveness */
+.toggle-button {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
 
 h1 {
   font-family: "Buda", serif;
@@ -149,7 +192,7 @@ button:hover {
 }
 
 .bio {
-  background: rgba(240, 203, 192, 0.3);
+  background: rgba(240, 203, 192, 0);
   padding: 30px;
 }
 @media (max-width: 768px) {
@@ -158,5 +201,27 @@ button:hover {
   }
   .grid {
     grid-template-columns: 1fr;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-links ul li {
+    margin: 10px 0;
+  }
+
+  .toggle-button {
+    display: block;
+  }
+
+  .navbar-links.active {
+    display: flex;
   }
 }
