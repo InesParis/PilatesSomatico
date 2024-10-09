@@ -3,14 +3,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
 }
-
+nav {
+  font-family: "Buda", serif;
+  letter-spacing: 5px;
+}
 .navbar-brand {
-  color: white;
+  color: #f0cbc0;
+  font-family: "Buda", serif;
   font-size: 24px;
 }
 
 .nav-item a:hover {
-  color: #f0cbc0; /* Example hover color */
+  color: #f0cbc0;
 }
 
 h1 {
