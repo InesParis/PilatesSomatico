@@ -3,9 +3,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
 }
-img {
-  border-radius: 4px;
-}
+
 nav {
   font-family: "Buda", serif;
   letter-spacing: 5px;
@@ -21,7 +19,8 @@ nav {
   color: #f0cbc0;
 }
 
-h1 {
+h1,
+h3 {
   font-family: "Buda", serif;
   font-weight: 300;
   letter-spacing: 7px;
@@ -67,30 +66,6 @@ button:hover {
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  } /* Show the first image */
-  33.33% {
-    transform: translateX(0);
-  } /* Stay on the first image */
-  40% {
-    transform: translateX(-33.33%);
-  } /* Transition to the second image */
-  73.33% {
-    transform: translateX(-33.33%);
-  } /* Stay on the second image */
-  80% {
-    transform: translateX(-66.66%);
-  } /* Transition to the third image */
-  100% {
-    transform: translateX(-66.66%);
-  } /* Stay on the third image */
-  0% {
-    transform: translateX(0);
-  }
 }
 
 .courses {
@@ -152,6 +127,19 @@ button:hover {
   background: rgba(240, 203, 192, 0);
   padding: 30px;
 }
+.bio-image img {
+  border-radius: 7px;
+}
+.footer img {
+  width: 100%;
+  height: 100%;
+}
+
+#contact-button {
+  padding: 10px;
+  margin: 100px;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 25px;
