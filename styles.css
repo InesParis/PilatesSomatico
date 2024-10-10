@@ -142,6 +142,8 @@ button:hover {
 
 footer {
   overflow: hidden;
+  width: 100%;
+  background: #fcfaf5;
 }
 
 footer .socials p {
