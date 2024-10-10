@@ -9,6 +9,15 @@ nav {
   letter-spacing: 5px;
 }
 
+#socials a {
+  text-decoration: none;
+  color: #565a5c;
+}
+
+#socials a:hover {
+  color: #f0cbc0;
+}
+
 .navbar-brand {
   color: #f0cbc0;
   font-family: "Buda", serif;
