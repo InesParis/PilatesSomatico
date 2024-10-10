@@ -154,6 +154,13 @@ button:hover {
 .flex {
   flex-direction: column;
 }
+#main-text {
+  padding: 50px;
+  margin: 0;
+}
+#main-text-picture {
+  border-radius: 7px;
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 25px;
