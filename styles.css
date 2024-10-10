@@ -136,8 +136,16 @@ button:hover {
 }
 
 #contact-button {
-  padding: 10px;
-  margin: 100px;
+  margin-top: 10px;
+  transform: none;
+}
+
+footer {
+  overflow: hidden;
+}
+
+footer .socials p {
+  margin: 0;
 }
 
 @media (max-width: 768px) {
