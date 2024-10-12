@@ -132,9 +132,9 @@ button:hover {
   grid-template-columns: 1fr 1fr;
 }
 
-.bio {
-  background: rgba(240, 203, 192, 0);
+#bio {
   padding: 30px;
+  background: #f0cbc078 !important;
 }
 .bio-image img {
   border-radius: 7px;
