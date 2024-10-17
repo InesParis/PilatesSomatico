@@ -147,6 +147,10 @@ button:hover {
   margin-bottom: 20px;
 }
 
+.bio-image {
+  border-radius: 100%;
+}
+
 #footer {
   position: relative;
   width: 100%;
