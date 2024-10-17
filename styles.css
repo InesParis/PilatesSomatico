@@ -35,6 +35,14 @@ h1 {
   font-weight: light;
   font-size: 40px;
 }
+h2 {
+  font-family: "Buda", serif;
+  font-weight: 300;
+  letter-spacing: 7px;
+  font-style: normal;
+  font-weight: light;
+  font-size: 35px;
+}
 h3 {
   font-family: "Buda", serif;
   font-weight: 300;
@@ -147,10 +155,6 @@ button:hover {
   margin-bottom: 20px;
 }
 
-.bio-image {
-  border-radius: 100%;
-}
-
 #footer {
   position: relative;
   width: 100%;
@@ -223,7 +227,14 @@ li {
 #main-text-img {
   border-radius: 7px;
 }
-
+.pilates {
+  padding: 50px;
+  margin: 20px;
+  letter-spacing: 5px;
+}
+.pilates img {
+  border-radius: 100%;
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 25px;
