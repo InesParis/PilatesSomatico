@@ -142,7 +142,7 @@ button:hover {
   padding: 30px;
   background: #f0cbc078 !important;
 }
-.bio-image img {
+.bio {
   border-radius: 100px;
 }
 
@@ -168,6 +168,9 @@ button:hover {
 .key-concepts {
   background-color: #f0cbc0;
   padding: 40px;
+}
+.concept {
+  margin-bottom: 10px;
 }
 .image-container {
   position: relative;
